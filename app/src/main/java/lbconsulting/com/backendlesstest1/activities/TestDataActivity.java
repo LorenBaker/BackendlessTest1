@@ -173,7 +173,6 @@ public class TestDataActivity extends AppCompatActivity implements View.OnClickL
         tvResults.setText("Results:\n" + "Number of ListThemes = " + listThemes.size() + "\n\n" + sb.toString());
     }
 
-
     private void uploadTestTestThemes() {
         if (!CommonMethods.isNetworkAvailable()) {
             showOkDialog(this, "Network Not Available", "Unable to upload ListThemes");
